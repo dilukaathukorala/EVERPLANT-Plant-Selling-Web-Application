@@ -22,3 +22,42 @@ img{
 body{
     color: var(--text-color);
 }
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px;
+    padding: 7px 100px;
+    background-color: var(--bg-color);
+    transition: 0.5s linear;
+}
+.logo img{
+    width: 100px
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    padding: 8px 17px;
+    color: var(--text-color);
+    font-size:  0.7rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.navbar a:hover{
+    background-color: var(--secondary-color);
+    border-radius: 2rem;
+    transition: 0.5s all linear;
+}
+.header-icons{
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    column-gap: 0.8rem;
+}
