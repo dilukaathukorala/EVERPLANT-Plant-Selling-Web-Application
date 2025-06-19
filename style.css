@@ -96,3 +96,56 @@ header{
     font-size: 1rem;
     font-weight: 500;
 }
+
+/* Description Section */
+.description-section {
+  top: 150%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200px 100px;
+  background-color: #ffffff;
+  gap: 40px;
+}
+
+.desc-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.desc-text h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.desc-text p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+
+.desc-image {
+  flex: 1;
+  min-width: 280px;
+}
+
+.desc-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .description-section {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .desc-text, .desc-image {
+    flex: 1 1 100%;
+  }
+}
