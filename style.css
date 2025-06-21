@@ -126,6 +126,13 @@ header{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+.home-text h5{
+    padding-top: 5px;
+    font-family: open-sans, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+    color: var(--secondary-color);
+}
 .home-text p{
     font-size: 0.938rem;
     color: var(--text-color);
