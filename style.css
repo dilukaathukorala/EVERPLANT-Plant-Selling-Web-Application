@@ -40,10 +40,11 @@ header{
     transition: 0.5s linear;
 }
 .logo img{
-    width: 120px
+    width: 120px;
 }
 .navbar{
     display: flex;
+    column-gap: 1.5rem;
 }
 .navbar a{
     padding: 8px 17px;
@@ -55,7 +56,7 @@ header{
 .navbar a:hover{
     color: white;
     background-color: var(--bg-color);
-    border-radius: 2rem;
+    border-radius: 3rem;
     transition: 0.5s all linear;
 }
 .header-icons{
@@ -63,7 +64,7 @@ header{
     cursor: pointer;
     z-index: 1000;
     display: flex;
-    column-gap: 0.8rem;
+    column-gap: 2rem;
 }
 .header-icons .bx{
     color: white;
