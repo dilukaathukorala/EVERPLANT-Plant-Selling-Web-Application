@@ -114,3 +114,8 @@ header{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+.home-text p{
+    font-size: 0.938rem;
+    color: var(--text-color);
+    margin: 0.5rem 0 1.4rem;
+}
