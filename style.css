@@ -40,7 +40,7 @@ header{
     transition: 0.5s linear;
 }
 .logo img{
-    width: 100px
+    width: 120px
 }
 .navbar{
     display: flex;
@@ -102,7 +102,10 @@ header{
 }
 .home{
     width: 100%;
-    min-height: 130vh;
+    min-height: 20vh;
+    margin-top: 8%;
+    margin-bottom: 1%;
+    background-color: rgb(233, 233, 233);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
     align-items: center;
@@ -112,12 +115,11 @@ header{
     width: 90%;
     height: 90%;
     object-fit: cover;
-    margin-left: 3rem;
 }
 .home-text h1{
     font-family: open-sans, sans-serif;
-    font-size: 3.4rem;
-    color: var(--bg-color);
+    font-size: 2rem;
+    color: var(--primary-color);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
