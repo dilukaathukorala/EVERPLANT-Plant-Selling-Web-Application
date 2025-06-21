@@ -127,7 +127,7 @@ header{
 .home-text p{
     font-size: 0.938rem;
     color: var(--text-color);
-    margin: 0.5rem 0 1.4rem;
+    margin: 1rem 0 2rem;
 }
 .btn{
     padding: 10px 40px;
