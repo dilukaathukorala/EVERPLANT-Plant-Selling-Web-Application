@@ -40,7 +40,7 @@ header{
     transition: 0.5s linear;
 }
 .logo img{
-    width: 120px;
+    width: 100px;
 }
 .navbar{
     display: flex;
