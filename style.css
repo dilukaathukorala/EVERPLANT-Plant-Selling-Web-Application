@@ -87,9 +87,10 @@ header{
 .search-box.active{
     top: 100%;
     box-shadow: var(--box-shadow);
-    transition: 0.25s all linear;
+    transition: 0.50s all linear;
 }
 .search-box input{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
     border: none;
     outline: none;
