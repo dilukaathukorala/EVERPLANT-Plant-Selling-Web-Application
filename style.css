@@ -116,6 +116,7 @@ header{
     width: 90%;
     height: 90%;
     object-fit: cover;
+    margin-left: 3rem;
 }
 .home-text h1{
     font-family: open-sans, sans-serif;
