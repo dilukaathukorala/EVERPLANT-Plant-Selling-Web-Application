@@ -149,3 +149,8 @@ header{
 .btn:hover{
     background: var(--primary-color);
 }
+.about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+    gap: 2rem;
+}
