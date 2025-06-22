@@ -126,6 +126,18 @@ header{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+.home-text .heading-zero{
+    display: inline-block;
+    margin-right: 10px;
+}
+.home-text .heading-one{
+    display: inline-block;
+    color: black;
+}
+.home-text .heading-two{
+    display: inline-block;
+    color: var(--primary-color);
+}
 .home-text h5{
     padding-top: 5px;
     font-family: open-sans, sans-serif;
