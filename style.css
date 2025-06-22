@@ -131,7 +131,7 @@ header{
     font-family: open-sans, sans-serif;
     font-size: 0.8rem;
     letter-spacing: 5px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 .home-text p{
     font-size: 0.938rem;
@@ -156,4 +156,13 @@ header{
 }
 .about-img img{
     border-radius: 1.5rem;
+}
+.about-text h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.about-text p{
+    font-size: 0.938rem;
+    margin: 0.5rem 0 1.1rem;
+
 }
