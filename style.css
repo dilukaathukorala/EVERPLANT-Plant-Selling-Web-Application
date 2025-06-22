@@ -154,3 +154,6 @@ header{
     grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
     gap: 2rem;
 }
+.about-img img{
+    border-radius: 1.5rem;
+}
